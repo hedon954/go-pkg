@@ -2,10 +2,11 @@ package errors
 
 import (
 	"fmt"
-	"github.com/pkg/errors"
 	"io"
 	"log"
 	"runtime"
+
+	"github.com/pkg/errors"
 )
 
 /**

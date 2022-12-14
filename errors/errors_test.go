@@ -1,9 +1,10 @@
 package errors
 
 import (
-	"github.com/pkg/errors"
-	"go.uber.org/zap"
+	"errors"
 	"testing"
+
+	"go.uber.org/zap"
 )
 
 func TestErr(t *testing.T) {
